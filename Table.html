@@ -1,0 +1,116 @@
+<html>
+<head>
+<body>
+<center>
+<style>
+form{
+		width:700px;
+		height:525px;
+		border-top: 5px solid steelblue;
+		border-bottom:2px solid steelblue;
+		border-right:2px solid steelblue;
+		border-left:2px solid steelblue;
+		}
+.o{
+		text-align:left;
+		font-family:sans-serif;
+		margin-top:20px;
+		margin-left:10px;
+		   }
+.a{
+	
+	text-align:left;
+	margin-top:5px;
+	margin-left:10px;
+	margin-right:10px;
+	padding:10px;
+	background-color:steelblue;
+	color:white;
+	font-family:sans-serif;
+	}
+table{	
+				width:700px;
+				margin-left:20px;
+				
+		}
+table.type1 input{  
+		width:250px;
+		height:30px;
+		}
+table.type2 input{   
+		height:30px;
+		}
+
+table.type2 select{width:200px;
+					height:30px;}
+.label{
+		margin-top:5px;
+		text-align:left;
+		margin-left:20px}
+.button1{background-color:darkorange;
+		color:white;
+		padding:5px 10px;
+		border:none;
+		cursor:pointer;
+		}
+p{text-align:right;
+	margin:10px;}
+.button2{padding:3px;
+		cursor:pointer;}		
+#two{margin-left:50px;}
+
+</style>
+</head>
+<form>
+<div class="o">Create new account</div>
+<div class="a">Account Information</div>
+<table class="type1"cellspacing="5">
+	<tr>
+		<td><input type="text" id="*emailid" placeholder="*email id" ></td>
+		<td class="two"><input type="text" id="*re-emailid" placeholder="*re-emailid"></td>
+	</tr>
+	<tr>
+		<td><input type="text" id="*psw" placeholder="*psw" ></td>
+		<td><input type="text" id="*repsw" placeholder="*repsw" ></td>
+	</tr>
+
+</table>
+<div class="a">Personal Information</div>
+<table class="type2" cellspacing="5">
+	<tr>
+		<td><input type="text" id="*company name" placeholder="*company name"></td>
+		<td><input type="text" id="*first name" placeholder="*first name"></td>
+		<td><input type="text" id="*last name" placeholder="*last name"></td>
+	</tr>
+	<tr>
+		<td><select name="select country" >
+			<option value="volvo">select country</option>
+			<option value="saab">africa</option>
+			<option value="opel">america</option>
+			<option value="audi">pakistan</option>
+		</select></td>
+		<td><input type="text" id="*state" placeholder="*state" ></td>
+		<td><input type="text" id="*city" placeholder="*city" ></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><input type="text" id="zip" placeholder="*zip"></td>
+		<td><input type="text" id="*phone" placeholder="*phone" ></td>
+	</tr>
+</table>
+<table>
+	<tr>	
+		<td><textarea rows="3" cols="86" id="address" placeholder="*Address"></textarea></td>
+	</tr>
+</table>
+<div class ="a">Tearm and Condition</div>
+<div class="label">
+<label><input type="checkbox">Please check this box to confirm your agreement to <a href="#">Tearm and Condition.</a><br></label>
+<label><input type="checkbox">Please check thid box to allow us to add you to our email list. </label><br>
+</div>		
+		<p><input type="button" class="button1" value="sign up">
+			<button class="button2">cancle</button></p>
+</center>
+</body>
+</form>
+</html>
